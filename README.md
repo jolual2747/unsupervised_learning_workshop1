@@ -1,2 +1,3 @@
-# unsupervised_learning_workshop1
-Unsupervised Learning - Workshop I
+# Unsupervised Learning Workshop1
+
+Here we are going to explore how some unsupervised learning methods have been built!
