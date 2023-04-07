@@ -4,7 +4,7 @@ Here we are going to explore how some unsupervised learning methods have been bu
 
 ## Notebooks:
 
-### exercises_1_2.ipynb
+### **- exercises_1_2.ipynb**
 
 **1. Simulate any random rectangular matrix A.**
 - What is the rank, trace, determinant and inverse of A?
@@ -16,7 +16,7 @@ Here we are going to explore how some unsupervised learning methods have been bu
 - Calculate and plot the average face of the cohort.
 - How distant is your face from the average? How would you measure it?
 
-### exercises_3_to_10.ipynb
+### **- exercises_3_to_10.ipynb**
 
 **3. Let’s create the unsupervised Python package**
 - Same API as scikit-learn: fit(), fit_transform(), transform(), hyperparams at init
