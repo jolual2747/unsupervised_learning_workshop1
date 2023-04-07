@@ -7,6 +7,10 @@ name = "pypi"
 pyzmq = "*"
 pandas = "*"
 ipykernel = "*"
+gdown = "*"
+pillow = "*"
+matplotlib = "*"
+scikit-image = "*"
 
 [dev-packages]
 
