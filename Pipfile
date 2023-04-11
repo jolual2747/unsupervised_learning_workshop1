@@ -11,6 +11,8 @@ gdown = "*"
 pillow = "*"
 matplotlib = "*"
 scikit-image = "*"
+scikit-learn = "*"
+virtualenv = "*"
 
 [dev-packages]
 
