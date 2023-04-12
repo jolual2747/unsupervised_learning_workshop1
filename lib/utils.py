@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.linalg import svd
-import logging
 import matplotlib.pyplot as plt
 from skimage import io
 from skimage.transform import resize
@@ -88,7 +87,7 @@ class svd_scratch:
         return X_transformed
     
 class tsne:
-    def __init__(self, n_components=2, perplexity=15.0, max_iter=300, momentum = 1.0, learning_rate=10,random_state=1234):
+    def __init__(self, n_components=2, perplexity=15.0, max_iter=50, momentum = 1.0, learning_rate=10,random_state=1234):
         """
         T-SNE: A t-Distributed Stochastic Neighbor Embedding implementation. Built based on https://github.com/nlml/tsne_raw
         It's a tool to visualize high-dimensional data. It converts
