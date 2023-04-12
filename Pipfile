@@ -13,6 +13,7 @@ matplotlib = "*"
 scikit-image = "*"
 scikit-learn = "*"
 virtualenv = "*"
+tensorflow = "*"
 
 [dev-packages]
 
