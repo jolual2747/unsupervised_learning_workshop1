@@ -1,3 +1,7 @@
+"""
+This Python file is for build, train and save
+a Logistic Regression and a PCA
+"""
 import os
 import numpy as np
 import tensorflow as tf
@@ -22,7 +26,7 @@ X_test = x_test.reshape(x_test.shape[0], x_test.shape[1]*x_test.shape[2])
 
 # implement PCA
 
-pca = PCA(n_components=50)
+pca = PCA(n_components=250)
 X_train2 = pca.fit_transform(X_train)
 X_test2 = pca.transform(X_test)
 
