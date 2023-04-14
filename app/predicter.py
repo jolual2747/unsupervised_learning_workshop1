@@ -2,8 +2,10 @@ import numpy as np
 from PIL import Image
 import joblib
 from skimage.transform import resize
+import os
 
 def load_objects():
+    print(os.getcwd())
     pca = joblib.load('models/pca.joblib')
     model = joblib.load('models/model.joblib')
     return pca, model
@@ -19,4 +21,8 @@ def make_prediction(path_image):
     pca, model = load_objects()
     img = read_image(path_image)
     img_pca = pca.transform(img)
-    return model.predict(img_pca)
+    classes = model.classes_.tolist()
+    pred = model.predict(img_pca)[0]
+    n_position = classes.index(pred)
+    prob = model.predict_proba(img_pca)[0]
+    return pred, round(prob[n_position],1)

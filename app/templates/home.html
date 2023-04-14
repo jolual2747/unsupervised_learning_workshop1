@@ -42,22 +42,15 @@
       input[type="submit"]:hover {
         background-color: #004566;
       }
-      h3 {
-        color: #1E1E1E;
-        font-size: 24px;
-        margin-top: 30px;
-      }
     </style>
   </head>
   <body>
     <h1>MNIST digits classifier</h1>
-    <p>Insert images from MNIST handwritten digits, you can download them from http://yann.lecun.com/exdb/mnist/</p>
+    <p>Insert images from MNIST handwritten digits, you can download them from http://yann.lecun.com/exdb/mnist/</p>    
     <form method="post" enctype="multipart/form-data">
       <input type="file" name="image">
       <input type="submit" value="Predict">
       <br>
-      <h3>Prediction: {{prediction}}, probability: {{prob}}</h3>
-      <img src={{image_path}} alt="Girl in a jacket">
     </form>
   </body>
 </html>
