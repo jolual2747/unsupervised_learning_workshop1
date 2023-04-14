@@ -307,3 +307,6 @@ def read_some_images(path_list):
         imgs.append(img)
     return np.array(imgs)
 
+def l2_distance(X):
+    sum_X = np.sum(X * X, axis=1)
+    return (-2 * np.dot(X, X.T) + sum_X).T + sum_X
