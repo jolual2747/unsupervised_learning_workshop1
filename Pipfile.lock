@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "600189c18261ae8406c79f00771c7fb8d050f54f9dbe7f4cba4048601667b92f"
+            "sha256": "a6db5dacaf0f81a518f13add1d275fcde1929b591def950039a5c2286e7a3b0f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -281,14 +281,6 @@
             ],
             "version": "==1.2.0"
         },
-        "fbpca": {
-            "hashes": [
-                "sha256:150677642479663f317fdbb5e06dab3f98721cf7031bb4a84113d7a631c472d1",
-                "sha256:1a06e770fb618a29f0ab57077dffa36e4501e7b339220bed2e7e712f3934b00e"
-            ],
-            "index": "pypi",
-            "version": "==1.0"
-        },
         "filelock": {
             "hashes": [
                 "sha256:3618c0da67adcc0506b015fd11ef7faf1b493f0b40d87728e19986b536890c37",
@@ -531,11 +523,11 @@
         },
         "jupyter-client": {
             "hashes": [
-                "sha256:3fbab64100a0dcac7701b1e0f1a4412f1ccb45546ff2ad9bc4fcbe4e19804811",
-                "sha256:d5b8e739d7816944be50f81121a109788a3d92732ecf1ad1e4dadebc948818fe"
+                "sha256:9fe233834edd0e6c0aa5f05ca2ab4bdea1842bfd2d8a932878212fc5301ddaf0",
+                "sha256:b18219aa695d39e2ad570533e0d71fb7881d35a873051054a84ee2a17c4b7389"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==8.1.0"
+            "version": "==8.2.0"
         },
         "jupyter-core": {
             "hashes": [
@@ -1398,10 +1390,10 @@
         },
         "tensorboard": {
             "hashes": [
-                "sha256:58f1c2a25b4829b9c48d2b1ec951dedc9325dcd1ea4b0f601d241d2887d0ed65"
+                "sha256:811ab0d27a139445836db9fd4f974424602c3dce12379364d379bcba7c783a68"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.12.1"
+            "version": "==2.12.2"
         },
         "tensorboard-data-server": {
             "hashes": [
