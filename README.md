@@ -33,7 +33,7 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-![Image1](https://drive.google.com/file/d/17DA4e4shYGFkahzLFtNL1E4Y1Zs6HMWZ/view?usp=sharing)
+![Image1](https://drive.google.com/file/d/17DA4e4shYGFkahzLFtNL1E4Y1Zs6HMWZ/view)
 
 And finally you will have the web service working like this!
 
