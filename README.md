@@ -17,7 +17,7 @@ exists a Pipfile in the directory
 
 ## Components of repository
 
-#### **- workshop_development.ipynb**
+#### **workshop_development.ipynb**
 
 Here you can find basics of linear algebra, images handling, singular value decomposition on images, PCA and t-SNE implementation
 
@@ -33,10 +33,10 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-![Image1](resources/server.png)
+![Image1](./resources/server.png)
 
 And finally you will have the web service working like this!
 
-![Image1](resources/flaskapp.png)
+![Image1](./resources/flaskapp.png)
 
 You can upload MNIST images and you will receive a prediction of the class and its probability
