@@ -33,7 +33,7 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-![Image1](https://lh6.googleusercontent.com/CgbWCnyL4ELr6taN7I-TfPjJx2KQbDt0y-6jbV6tU_rY8ayN7mbg_zxdsL1HJZ4MHycFw-SnBOLjQXss5L8TGwVKkdZKpTFbirDzaU7Dy1OOL8ySqn0-QKkst3o4wpjnrg=w1280)
+![Image1](https://www.dropbox.com/s/rfo339wmxycglps/server.png)
 
 And finally you will have the web service working like this!
 
