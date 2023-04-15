@@ -33,12 +33,10 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-#![Image1](https://www.dropbox.com/s/rfo339wmxycglps/server.png)
-
-<img src="https://www.dropbox.com/s/rfo339wmxycglps/server.png" alt="server">
+#![Image1](resources/server.png)
 
 And finally you will have the web service working like this!
 
-![Image1](./resources/flaskapp.png)
+![Image1](resources/flaskapp.png)
 
 You can upload MNIST images and you will receive a prediction of the class and its probability
