@@ -33,7 +33,9 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-![Image1](https://www.dropbox.com/s/rfo339wmxycglps/server.png)
+#![Image1](https://www.dropbox.com/s/rfo339wmxycglps/server.png)
+
+<img src="https://www.dropbox.com/s/rfo339wmxycglps/server.png" alt="server">
 
 And finally you will have the web service working like this!
 
