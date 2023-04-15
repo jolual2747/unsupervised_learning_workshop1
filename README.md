@@ -33,7 +33,7 @@ python app.py
 ```
 Then it will be displayed and you have to copy the link of the server and then paste it in your browser:
 
-#![Image1](resources/server.png)
+![Image1](resources/server.png)
 
 And finally you will have the web service working like this!
 
